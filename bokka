@@ -1,1 +1,16 @@
-gathi lekha gangi tagutunte evaroo vachi lassi adigaru,evaru varu??
+#include<stdio.h>
+int main()
+{
+	int n,l,count=0;
+	scanf("%d",&n);
+	while(n!=0)
+	{
+		l=n;
+		l=l%10;
+		count++;
+		n=n/10;
+	}
+	printf("%d",count);
+}
+
+
