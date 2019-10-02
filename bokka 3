@@ -14,8 +14,10 @@ int main() {
            {
                printf("%c\n",s[j]);
                j=i+1;
+               ##done
            }
         }
     }
     return 0;
 }
+
