@@ -30,6 +30,7 @@ int main()
    
    sum=sum-sum1;
    printf("%d",sum);
+   printf("done");
  }
 
  
