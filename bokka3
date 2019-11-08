@@ -15,6 +15,7 @@ void printNaturalNumbers(int lowerLimit, int upperLimit)
         return;
     printf("%d, ", lowerLimit);
     printNaturalNumbers(lowerLimit + 1, upperLimit);
+    printf("%d, ", lowerLimit);
 }
 
 
